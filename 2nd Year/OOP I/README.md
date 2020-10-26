@@ -1,4 +1,4 @@
-# Object-Oriented Programming using Java
+# Object-Oriented Programming
 
 In this discipline I learned the Java language
 
