@@ -1,0 +1,58 @@
+create database notas;
+use notas;
+create table banco(
+	ra integer,
+	nome varchar(30),
+	curso varchar(30)
+);
+create table leitura(
+	ra_lt integer,
+	r1 char,
+	r2 char,
+	r3 char,
+	r4 char,
+	r5 char,
+	r6 char,
+	r7 char,
+	r8 char,
+	r9 char,
+	r10 char,
+	r11 char,
+	r12 char,
+	r13 char,
+	r14 char,
+	r15 char,
+	r16 char,
+	r17 char,
+	r18 char,
+	r19 char,
+	r20 char
+);
+create table gabarito(
+	curso_gab varchar(30),
+	r1 char,
+	r2 char,
+	r3 char,
+	r4 char,
+	r5 char,
+	r6 char,
+	r7 char,
+	r8 char,
+	r9 char,
+	r10 char,
+	r11 char,
+	r12 char,
+	r13 char,
+	r14 char,
+	r15 char,
+	r16 char,
+	r17 char,
+	r18 char,
+	r19 char,
+	r20 char
+);
+create table nota_total(
+	ra_tp integer,
+	nome_tp varchar(30),
+	nota_total integer
+);

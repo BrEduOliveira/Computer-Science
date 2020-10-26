@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+ENTITY xx IS
+	PORT (a,b,c,d:IN BIT;
+			fa,fb,fc,fd: OUT BIT);
+END xx;
+ARCHITECTURE exemplo OF xx IS
+BEGIN
+	fa<=(a AND (not b)) OR (a AND c);
+	fb<=(b AND (not c)) OR ((not a) AND b AND d);
+	fc<=(c AND (not d)) OR (a AND c);
+	fd<=((not a) AND d) OR (b AND (not c) AND d);
+END exemplo;

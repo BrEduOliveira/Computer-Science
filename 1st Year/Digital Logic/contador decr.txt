@@ -1,0 +1,22 @@
+Library ieee;
+Use ieee.std_logic_1164.all;
+Use ieee.std_logic_unsigned.all;
+
+Entity contador4bits is
+Port(Clock, zera: IN std_logic;
+	B: INOUT std_logic_vector(3 downto 0));
+End contados4bits;
+
+Architecture arq of contador4bits is
+Begin
+	process(Clock)
+	Begin
+		IF rising_edge(Clock) THEN
+			IF(zera = ‘1’) THEN
+				B <= “1111”;
+			ELSE
+				B <= B - 1;
+			End IF;
+		End IF;
+	End process;
+End arq;
