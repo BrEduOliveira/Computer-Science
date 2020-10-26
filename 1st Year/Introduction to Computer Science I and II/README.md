@@ -2,6 +2,8 @@
 
 In this discipline I learned a little bit about MySQL and spreadsheets
 
+My team and I also created a system of invoices
+
 ## Languages and Tools:    
 
 <code><img height="20" src="https://logodownload.org/wp-content/uploads/2016/10/mysql-logo.png"></code>
