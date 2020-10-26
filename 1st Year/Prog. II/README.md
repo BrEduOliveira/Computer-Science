@@ -1,6 +1,6 @@
 # Programming II
 
-In this discipline I learned about sorting algorithms ad other things
+In this discipline I learned about sorting algorithms and other things
 
 I also created a system using all the content learned in the discipline
 
